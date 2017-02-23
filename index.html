@@ -1,6 +1,18 @@
  <!DOCTYPE html>
   <html>
     <head>
+
+      <title>FODINA</title>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">      
+      <meta name="description" content="FODINA: Formación y Desarrollo Integral para Niños, Adolescentes y Adultos">
+      <meta name="keywords" content="FODINA, Fundación FODINA, Formación y desarrollo integral, niños y adolescentes">
+      <meta name="author" content="Excinober Benites">
+
+      <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
+
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -8,10 +20,7 @@
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-      <meta charset="utf-8">
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
       <style type="text/css">          
             html, body, .block {
@@ -28,32 +37,73 @@
         padding-left: 0;
       }
 
+      .logo{
+        margin-top: 200px;
+      }
+
+      @media (max-width: 600px){
+        .logo{
+          margin-top: 100px;
+        }
+      }
+
       </style>
+<!--Start of Zendesk Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="https://v2.zopim.com/?4YiEe0HQXp6IPZwBd0nahPxOjecMzs2l";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zendesk Chat Script-->
+<script type="text/javascript">
+    window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', 'cca13230eeba0f8f8b4dde6337910ac4e74a1337');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91353531-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
     </head>
 
     <body>
-      <div id="inicio" class="block green accent-4">
+      <div id="inicio" class="block" style="background-image: url(assets/img/fondo-inicio.png);background-repeat: no-repeat;background-size: 100% 100%;">
         <nav class="pushpin-demo-nav" data-target="inicio">
           <div class="nav-wrapper green darken-2">
             <div class="container">
               <a href="#" class="brand-logo">INICIO</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#!">¿QUÉ ES FODINA?</a></li>
-                <li><a href="#!">LO QUE HACEMOS</a></li>
-                <li><a href="#!">NUESTRO EQUIPO</a></li>
-                <li><a href="#!">APÓYANOS</a></li>
-                <li><a href="#!">CONTACTO</a></li>
+                <li><a href="#que-es-fodina">¿QUÉ ES FODINA?</a></li>
+                <li><a href="#lo-que-hacemos">LO QUE HACEMOS</a></li>
+                <li><a href="#nuestro-equipo">NUESTRO EQUIPO</a></li>
+                <li><a href="#apoyanos">APÓYANOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
               </ul>
             </div>
           </div>
         </nav>
-        <div class="container center-align">
+        <div class="container">
           <div class="row">
-            <img src="assets/img/logo.png" class="responsive-img" style="margin-top: 15%;">
+            <div class="col s8 offset-s2 m12 center-align">
+              <img src="assets/img/logo.png" class="responsive-img logo">
+            </div>
           </div>          
-          <div class="row">  
-            <a class="waves-effect amber darken-4 btn-large">¿QUÉ ES FODINA?</a>
-            <a class="waves-effect purple darken-4 btn-large">LO QUE HACEMOS</a>
+          <div class="row">
+            <div class="col s12 center-align">
+              <a class="waves-effect amber darken-4 btn-large" href="#que-es-fodina">¿QUÉ ES FODINA?</a>
+              <a class="waves-effect purple darken-4 btn-large" href="#lo-que-hacemos">LO QUE HACEMOS</a>
+            </div>
           </div>
         </div>
       </div>
@@ -64,29 +114,18 @@
             <div class="container">
               <a href="#" class="brand-logo">¿QUÉ ES FODINA?</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#!">INICIO</a></li>
-                <li><a href="#!">LO QUE HACEMOS</a></li>
-                <li><a href="#!">NUESTRO EQUIPO</a></li>
-                <li><a href="#!">APÓYANOS</a></li>
-                <li><a href="#!">CONTACTO</a></li>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#lo-que-hacemos">LO QUE HACEMOS</a></li>
+                <li><a href="#nuestro-equipo">NUESTRO EQUIPO</a></li>
+                <li><a href="#apoyanos">APÓYANOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
               </ul>
             </div>
           </div>
         </nav>
         <div class="container" style="overflow-y:auto;max-height: 95%;overflow-x: hidden;">
-          <div class="row">
-            <!--<div class="col s12 m12" style="margin-top: 10px;">
-              <div class="card-panel white center-align">
-                <img src="assets/img/logo.png" class="responsive-img">
-              </div>
-            </div>-->
-            <div class="col s12 m12" style="margin-top: 10%;">
-              <!--<div class="card-panel white">
-                <p class="white-black" style="text-align: justify;">FODINA es un proyecto que nació en noviembre del año 2015, en la comuna 15, en el Distrito de Aguablanca de Cali. Liderado por dos jóvenes de la misma comunidad, Excinober Benites y Yulian Camacho, con el firme propósito de generar mayores oportunidades de vida para la población vulnerable, especialmente, niños y adolescentes.<br><br>
-
-Para finales del 2016 e inicios del 2017, y gracias al apoyo y participación de un formidable grupo de jóvenes que se unieron al proyecto aportando su conocimiento, FODINA se constituyó como una entidad sin ánimo de lucro, poniendo a disposición de los niños entre los 5 y los 14 años un portafolio de 10 programas divididos en tres componentes (Musical-Cultural, Deportivo y Académico); en los cuales, se forman actualmente más de 100 niños y adolescentes.
-                </p>
-              </div>-->
+          <div class="row">            
+            <div class="col s12 m12" style="margin-top: 10%;">             
               <p class="flow-text white-text" style="text-align: center;">FODINA es un proyecto que nació en noviembre del año 2015, en la comuna 15, en el Distrito de Aguablanca de Cali. Liderado por dos jóvenes de la misma comunidad, Excinober Benites y Yulian Camacho, con el firme propósito de generar mayores oportunidades de vida para la población vulnerable, especialmente, niños y adolescentes.<br><br>
 
 Para finales del 2016 e inicios del 2017, y gracias al apoyo y participación de un formidable grupo de jóvenes que se unieron al proyecto aportando su conocimiento, FODINA se constituyó como una entidad sin ánimo de lucro, poniendo a disposición de los niños entre los 5 y los 14 años un portafolio de 10 programas divididos en tres componentes (Musical-Cultural, Deportivo y Académico); en los cuales, se forman actualmente más de 100 niños y adolescentes.
@@ -103,11 +142,11 @@ Para finales del 2016 e inicios del 2017, y gracias al apoyo y participación de
             <div class="container">
               <a href="#" class="brand-logo">LO QUE HACEMOS</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#!">INICIO</a></li>
-                <li><a href="#!">¿QUÉ ES FODINA?</a></li>
-                <li><a href="#!">NUESTRO EQUIPO</a></li>
-                <li><a href="#!">APÓYANOS</a></li>
-                <li><a href="#!">CONTACTO</a></li>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#que-es-fodina">¿QUÉ ES FODINA?</a></li>
+                <li><a href="#nuestro-equipo">NUESTRO EQUIPO</a></li>
+                <li><a href="#apoyanos">APÓYANOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
               </ul>
             </div>
           </div>
@@ -222,87 +261,93 @@ Para finales del 2016 e inicios del 2017, y gracias al apoyo y participación de
             <div class="container">
               <a href="#" class="brand-logo">NUESTRO EQUIPO</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#!">¿QUÉ ES FODINA?</a></li>
-                <li><a href="#!">LO QUE HACEMOS</a></li>
-                <li><a href="#!"></a></li>
-                <li><a href="#!">APÓYANOS</a></li>
-                <li><a href="#!">CONTACTO</a></li>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#que-es-fodina">¿QUÉ ES FODINA?</a></li>
+                <li><a href="#lo-que-hacemos">LO QUE HACEMOS</a></li>                
+                <li><a href="#apoyanos">APÓYANOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
               </ul>
             </div>
           </div>
         </nav>
         <div class="container center-align">
           <div class="row">
-            <div class="col s12">
+            <div class="col s12">             
               
               <div class="card-panel grey lighten-5 z-depth-1">
-                <div class="row valign-wrapper">
-                  <div class="col s12 m3">
-                    <img src="assets/img/nuestro-equipo/excinober.jpg" alt="" class="circle responsive-img">
-                  </div>
-                  <div class="col s12 m9">
-                    <span class="black-text">
-                      Nací en Cali, tengo 22 años, los mismos viviendo en el Distrito de Aguablanca. Soy desarrollador de software y estudiante de administración de empresas y psicología en la Universidad del Valle. 
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div class="card-panel grey lighten-5 z-depth-1">
-                <div class="row valign-wrapper">
+                <div class="row">
                   <div class="col s12 m3">
                     <img src="assets/img/nuestro-equipo/ana-bocanegra.jpg" alt="" class="circle responsive-img">
                   </div>
                   <div class="col s12 m9">
                     <span class="black-text">
-                      Ana María Bocanegra Ramón: Nací en la ciudad de Neiva el 11 de octubre de 1995. Aunque no soy caleña 100%, me considero parte del Valle, pues desde mis 3 años habito en esta ciudad hermosa y al empezar hace unos años como docente para extranjeros con mi idioma maternal de manera informal, por medio de las redes sociales, he podido ver como las personas del exterior desearían venir a ayudar a mi nación de alguna u otra forma, por eso me uní al proyecto FODINA, para ser una de las que plante una semilla en buena tierra y más adelante pueda ver frutos de aquello que en alguna ocasión Dios me permitió sembrar, junto a mis colegas. Técnica en inglés conversacional, ITGEM. Estudiante del programa de licenciatura en lenguas modernas inglés y francés, Universidad Santiago de Cali. Con experiencia en traducción y logística en eventos deportivos que se efectúan en mi ciudad Santiago de Cali, desde los TWG (The World Games), <!--me presenté como voluntaria, pero hoy en día soy una de las personas que ayuda a generar una mejor organización, volviendo a ver a amistades de años, llamándonos ‘Voluntarios de la Cali soñada’ generando una mejor armonía entre las personas quiénes empiezan dicho proceso.--> Una docente soñadora y una completa amadora de servir a otros con valores que me enseñaron y forjaron desde mi hogar. 
+                      <p class="flow-text" style="line-height: 1.8rem;">Ana María Bocanegra Ramón <br><small>Profesora de Inglés</small></p>
+                      "Nací en la ciudad de Neiva el 11 de octubre de 1995. Aunque no soy caleña 100%, me considero parte del Valle, pues desde mis 3 años habito en esta hermosa ciudad. Al empezar hace unos años como docente de extranjeros enseñando mi idioma maternal,<!-- manera informal , por medio de las redes sociales,--> he podido ver como las personas del exterior desearían venir a ayudar a mi país de alguna u otra forma, por eso me uní a FODINA, para ser una de las que plante una semilla en buena tierra y más adelante poder ver frutos de aquello que en alguna ocasión Dios me permitió sembrar, junto a mis colegas. Técnica en inglés conversacional, ITGEM. Estudiante de licenciatura en lenguas modernas inglés y francés, Universidad Santiago de Cali. Con experiencia en traducción y logística en eventos deportivos que se efectúan en mi ciudad, desde los TWG (The World Games). <!--me presenté como voluntaria, pero hoy en día soy una de las personas que ayuda a generar una mejor organización, volviendo a ver a amistades de años, llamándonos ‘Voluntarios de la Cali soñada’ generando una mejor armonía entre las personas quiénes empiezan dicho proceso.--> Una docente soñadora y una completa amadora de servir a otros con valores que me enseñaron y forjaron desde mi hogar."
                     </span>
                   </div>
                 </div>
               </div>
               <div class="card-panel grey lighten-5 z-depth-1">
-                <div class="row valign-wrapper">
+                <div class="row">
                   <div class="col s12 m3">
                     <img src="assets/img/nuestro-equipo/deisy.jpg" alt="" class="circle responsive-img">
                   </div>
                   <div class="col s12 m9">
+                    <p class="flow-text" style="line-height: 1.8rem;">Deissy Rodríguez Raigoza <br><small>Profesora de Fútbol Femenino</small></p>
                     <span class="black-text">
-                      Mi nombre es Deissy Rodríguez Raigoza, nací en Santiago de Cali el 12 de agosto de 1993, vivo en el barrio Laureano Gómez del Distrito de Aguablanca. Soy estudiante de Licenciatura en Filosofía de décimo (10°) semestre en la Universidad del Valle, mi interés principal es hacer Filosofía del Deporte. En el campo académico-laboral, tengo experiencia en formación docente en el área de filosofía y en el campo deportivo, he sido jugadora de fútbol desde los 12 años; en la Universidad del Valle, ingresé al equipo desde el año 2012. Soy fiel creyente del deporte como herramienta de desarrollo físico y mental de las personas y como herramienta que permite construir sano tejido social, el deporte como vehículo de libertad donde el ser humano pueda expresarse en toda su esencia. 
+                      "Nací en Santiago de Cali el 12 de agosto de 1993, vivo en el barrio Laureano Gómez del Distrito de Aguablanca. Soy estudiante de Licenciatura en Filosofía de décimo (10°) semestre en la Universidad del Valle, mi interés principal es hacer Filosofía del Deporte. En el campo académico-laboral, tengo experiencia en formación docente en el área de filosofía y en el campo deportivo, he sido jugadora de fútbol desde los 12 años; en la Universidad del Valle, ingresé al equipo desde el año 2012. Soy fiel creyente del deporte como herramienta de desarrollo físico y mental de las personas y como herramienta que permite construir sano tejido social, el deporte como vehículo de libertad donde el ser humano pueda expresarse en toda su esencia."
                     </span>
                   </div>
                 </div>
               </div>
               <div class="card-panel grey lighten-5 z-depth-1">
-                <div class="row valign-wrapper">
+                <div class="row">
                   <div class="col s12 m3">
                     <img src="assets/img/nuestro-equipo/chabli.jpg" alt="" class="circle responsive-img"> 
                   </div>
                   <div class="col s12 m9">
+                    <p class="flow-text" style="line-height: 1.8rem;">Chabli Taherah Makaalaona Laniakauahiakaua Arango Rosa <br><small>Profesora de Técnica Vocal</small></p>
                     <span class="black-text">
-                      Nacida en Hawaii, Estados Unidos, el 12 de agosto de 1992. De padre colombiano el cual la trajo a este magnífico mundo de diversas culturas como es Colombia, reside en el sur de Cali y actualmente está terminando su carrera en Recreación en la Universidad Del Valle. Su vida se divide en dos mundos: La música y el deporte. “me siento afortunada de tener la oportunidad de ser escuchada y escuchar, pues al enseñar también se aprende y estoy dispuesta a conocer cada rincón de esta ciudad y poner un ladrillito donde se pueden formar grandes ciudades”. Tecnóloga en recreación, Universidad del Valle. Con experiencia en técnica deportiva del voleibol y cantante de orquesta. 
+                      Nacida en Hawaii, Estados Unidos, el 12 de agosto de 1992. De padre colombiano el cual la trajo a este magnífico mundo de diversas culturas como es Colombia, reside en el sur de Cali y actualmente está terminando su carrera en Recreación en la Universidad Del Valle. Su vida se divide en dos mundos: La música y el deporte. “me siento afortunada de tener la oportunidad de ser escuchada y escuchar, pues al enseñar también se aprende y estoy dispuesta a conocer cada rincón de esta ciudad y poner un ladrillito donde se pueden formar grandes ciudades”. Tecnóloga en recreación, Universidad del Valle. Con experiencia en técnica deportiva del voleibol y cantante de orquesta. "
                     </span>
                   </div>
                 </div>
               </div>
               <div class="card-panel grey lighten-5 z-depth-1">
-                <div class="row valign-wrapper">
+                <div class="row">
                   <div class="col s12 m3">
                     <img src="assets/img/nuestro-equipo/diana.jpg" alt="" class="circle responsive-img">
                   </div>
                   <div class="col s12 m9">
+                    <p class="flow-text" style="line-height: 1.8rem;">Diana Sofia Murillo Tombe <br><small>Profesora de Patinaje</small></p>
                     <span class="black-text">
-                      Diana Sofia Murillo Tombe: nacida el  de mayo de 1999, me radique en Cali a los dos años de edad, habito en el barrio Mariano Ramos junto con mis padres y mi sobrino, he tenido la experiencia de vivir en un barrio donde la violencia nos golpea a todos lo que residimos en este, sin embargo  aun hay cosas positas en este lugar. Soy deportista de alto rendimiento de la liga vallecaucana de ciclismo, durante ocho años de mi vida fui patinadora, entrene junto a campeones del mundo, fue un gran privilegio compartir ratos con ellos, ayude a entrenar en un club de patinaje aquí en mi barrio. Soy graduada de bachillerato hace unos dos meses, estudie en la Institución Educativa Rodrigo Lloreda Caicedo, Salí como auxiliar contable con el SENA, he ayudado con niños en trabajos comunitarios en el barrio, con la policía ayude a recrear a niños con síndrome de Down y colabore con campañas a niños con cáncer.
+                     Nací el 11 de mayo de 1999, me radique en Cali a los dos años de edad. Vivo en el barrio Mariano Ramos, por lo que he tenido la experiencia de habitar un contexto donde la violencia nos golpea, sin embargo, son muchas las cosas positivas para destacar en este lugar. Soy deportista de alto rendimiento de la Liga Vallecaucana de Ciclismo; durante ocho años de mi vida fui patinadora, entrené junto a campeones del mundo, fue un gran privilegio compartir con ellos; apoyé entrenamientos de un club de patinaje aquí en mi barrio. Soy auxiliar contable del SENA.<!--graduada de bachillerato hace unos dos meses, estudie en la Institución Educativa Rodrigo Lloreda Caicedo, Salí como auxiliar contable con el SENA,--> He participado en trabajos comunitarios con niños, con la policía, en recreación a niños con síndrome de Down y colabore con campañas a niños con cáncer.
                     </span>
                   </div>
                 </div>
               </div>
               <div class="card-panel grey lighten-5 z-depth-1">
-                <div class="row valign-wrapper">
+                <div class="row">
                   <div class="col s12 m3">
                     <img src="assets/img/nuestro-equipo/yulian.jpg" alt="" class="circle responsive-img"> 
                   </div>
                   <div class="col s12 m9">
+                    <p class="flow-text" style="line-height: 1.8rem;">Yulian Camacho <br><small>Secretario General</small></p>
                     <span class="black-text">
-                      Yulian Camacho: Nacido en la ciudad de cali el 3 de julio de 1990, habitante del barrio Laureano gomez, distrito de agua blanca. "he vivido en primera persona lo que significa crecer en sector como el distrito de aguablanca, con todas las cosas negativas que representa, pero tambien con todas las posibilidades que se pueden explorar". Profesional en recreación, Universidad del Valle. Con experiencia de trabajo en ambitos comunitarios y educativos.
+                      Nacido en la ciudad de Cali el 3 de julio de 1990, habitante del barrio Laureano gomez, Distrito de Aguablanca. "He vivido en primera persona lo que significa crecer en un sector como el Distrito de Aguablanca, con todas las cosas negativas que representa, pero tambien con todas las posibilidades que se pueden explorar". Profesional en recreación, Universidad del Valle. Con experiencia de trabajo en ambitos comunitarios y educativos.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row">
+                  <div class="col s12 m3">
+                    <img src="assets/img/nuestro-equipo/excinober.jpg" alt="" class="circle responsive-img">
+                  </div>
+                  <div class="col s12 m9">
+                    <p class="flow-text" style="line-height: 1.8rem;">Excinober Benites G <br><small>Presidente y profesor de Informática y Batería</small></p>
+                    <span class="black-text">
+                      "Nací en el Distrito de Aguablanca en Cali y tengo 22 años. Soy desarrollador web, técnico en sistemas (ITGEM), técnico en programación de software (SENA)  y estudiante de administración de empresas y psicología en la Universidad del Valle. Amante del emprendimiento, la tecnología y el servicio a los demás;  mis pasiones pasan por el fútsal, la naturaleza y la música".
                     </span>
                   </div>
                 </div>
@@ -312,34 +357,203 @@ Para finales del 2016 e inicios del 2017, y gracias al apoyo y participación de
         </div>
       </div>
 
-    <footer class="page-footer">
+    <footer class="page-footer red accent-2">
       <div class="container">
         <div class="row">
-          <div class="col l4 s12">
-            <h5 class="white-text">Help Materialize Grow</h5>
-            
-            
+          <div class="col s12">
+            <h2 id="apoyanos" class="center-align white-text">¡APÓYANOS!</h2>            
 
+              <div class="card">
+                <div class="card-content">
+                  <p class="center-align">Actualmente son más de 100 niños y adolescentes entre los 5 y los 14 años de edad, del Distrito de Aguablanca de Cali, los que formamos de manera integral, a través de la música, el deporte, el inglés, la informática, el teatro, el juego, etc; aportando a la construcción de sus proyectos de vida y generación de oportunidades. <br><br>Puedes apoyarnos a través de dos opciones.</p>
+                </div>
+                <div class="card-tabs">
+                  <ul class="tabs tabs-fixed-width">
+                    <li class="tab"><a class="active" href="#test4">OPCIÓN 1</a></li>
+                    <li class="tab"><a href="#test5">OPCIÓN 2</a></li>                    
+                  </ul>
+                </div>
+                <div class="card-content grey lighten-4">
+                  <div id="test4">
+                    <h3 class="center-align pink-text  text-darken-4">Quiero aportar un monto mensual</h3>
+                    <div class="row">
+                      <div class="col s12 m6">
+                          <ul class="collapsible popout" data-collapsible="accordion">
+                            <li>
+                              <div class="collapsible-header"><i class="fa fa-question-circle" aria-hidden="true"></i>¿Cómo funciona?</div>
+                              <div class="collapsible-body"><span>Solo debes seleccionar un monto que desees aportar mensualmente. Luego de tu primer aporte recibirás boletines con información, fotos, videos, etc., de los niños y adolescentes que estás apoyando. Además, te invitaremos a eventos en el que podrás conocerlos e interactuar con ellos.</span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="fa fa-child" aria-hidden="true"></i>¿Quiénes son los beneficiarios?</div>
+                              <div class="collapsible-body"><span>Son niños y adolescentes entre los 5 y los 14 años, habitantes del Distrito de Aguablanca en Cali; los cuales crecen en un contexto de pocas oportunidades, familias disfuncionales y referentes negativos.</span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="fa fa-money" aria-hidden="true"></i>¿En qué se destina tu aporte?</div>
+                              <div class="collapsible-body"><span>Actualmente contamos con 10 programas de formación divididos en tres componentes: Cultural-Musical, Deportivo y Académico. Algunos niños se encuentran matriculados en un programa, y otros, en dos programas de distinto componente. Además, se realizan 2 o 3 actividades complementarias cada mes, en el que todos participan, y donde se tratan valores, se descubren, desarrollan y fortalecen aptitudes y conocimientos que les permite nutrir su proyecto de vida.<br>
+Tu aporte servirá para cubrir los costos de dichos programas y actividades.</span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="fa fa-usd" aria-hidden="true"></i>¿Cuánto puedo aportar?</div>
+                              <div class="collapsible-body"><span>Puedes realizar aportes a partir de los $30.000 mensuales.
+Los pagos puedes hacerlos con tarjeta débito, tarjeta crédito, efecty o baloto.</span></div>
+                            </li>
+                          </ul>                     
+                      </div>
+                      <div class="col s12 m6">
+                         <div class="input-field col s12">
+                          <form method="post" action="payu.php">
+                            <select name="monto" required="required">
+                              <option value="" disabled selected>Selecciona un monto</option>
+                              <option value="30000">$30.000</option>                              
+                              <option value="50000">$50.000</option>
+                              <option value="70000">$70.000</option>
+                              <option value="100000">$100.000</option>
+                            </select>
+                            <!--<label>Selecciona un monto</label>-->
+                            <button class="btn waves-effect waves-light btn-large" type="submit" name="aportarMonto">Aportar
+                              <i class="material-icons right">send</i>
+                            </button>
+                          </form>
+                          <h6 class="grey-text">Medios de pago: Tarjetas débito, Tarjetas crédito, Efecty, Baloto</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="test5">
+                    <h3 class="center-align pink-text  text-darken-4">Quiero apadrinar un niño</h3>
+                    <div class="row">
+                      <div class="col s12 m6">
+                          <ul class="collapsible popout" data-collapsible="accordion">
+                            <li>
+                              <div class="collapsible-header"><i class="fa fa-question-circle" aria-hidden="true"></i>¿Cómo funciona?</div>
+                              <div class="collapsible-body"><span>Luego de que das el primer aporte, te asignamos un niño y te enviamos un acceso virtual privado en el que podrás conocer sobre él, su información más relevante (foto, nombre, edad, programa de formación, etc.); además, te invitaremos a eventos en el que podrás conocerlo.</span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="fa fa-child" aria-hidden="true"></i>¿Quiénes son los beneficiarios?</div>
+                              <div class="collapsible-body"><span>Son niños y adolescentes entre los 5 y los 14 años, habitantes del Distrito de Aguablanca en Cali; los cuales crecen en un contexto de pocas oportunidades, familias disfuncionales y referentes negativos. Para apadrinamiento, se priorizan los niños con condiciones socio-económicas más complejas.</span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="fa fa-money" aria-hidden="true"></i>¿En qué se destina tu aporte?</div>
+                              <div class="collapsible-body"><span>Actualmente contamos con 10 programas de formación divididos en tres componentes: Cultural-Musical, Deportivo y Académico. Algunos niños se encuentran matriculados en un programa, y otros, en dos programas de distinto componente. Además, se realizan 2 o 3 actividades complementarias cada mes, en el que todos participan, y donde se tratan valores, se descubren, desarrollan y fortalecen aptitudes y conocimientos que les permite nutrir su proyecto de vida.
+Tu aporte servirá para costear el programa y actividades para un niño.</span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><i class="fa fa-usd" aria-hidden="true"></i>¿Con cuánto puedo apadrinar un niño?</div>
+                              <div class="collapsible-body"><span>Puedes apadrinar un niño matriculado en un programa con $30.000 mensuales, o puedes apadrinar un niño matriculado en dos programas con $50.000 mensuales.
+Los pagos puedes hacerlos con tarjeta débito, tarjeta crédito, efecty o baloto.</span></div>
+                            </li>
+                          </ul>                      
+                      </div>
+                      <div class="col s12 m6 center-align">
+                        <p class="flow-text black-text center-align">¿Quieres apadrinar un niño que se esta formando en uno o en dos programas?</p>
+
+                          <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+                              <button class="waves-effect waves-light btn-large" onClick="this.form.urlOrigen.value = window.location.href;" style="margin-top: 10px;">Un programa $30.000</button>
+                              <input name="buttonId" type="hidden" value="ut9L+swYTOPqBzBm0OaH5OkqJPmM5aW5oRszRCUzIEDUgcM/c0VkLg=="/>
+                              <input name="merchantId" type="hidden" value="622809"/>
+                              <input name="accountId" type="hidden" value="625139"/>
+                              <input name="description" type="hidden" value="APORTE PADRINO 1 PROGRAMA"/>
+                              <input name="referenceCode" type="hidden" value="APORTE003"/>
+                              <input name="amount" type="hidden" value="30000"/>
+                              <input name="tax" type="hidden" value="0"/>
+                              <input name="taxReturnBase" type="hidden" value="0"/>
+                              <input name="currency" type="hidden" value="COP"/>
+                              <input name="lng" type="hidden" value="es"/>
+                              <input name="displayShippingInformation" type="hidden" value="NO"/>
+                              <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+                              <input name="buttonType" value="SIMPLE" type="hidden"/>
+                              <input name="signature" value="98947275fb281664a7e8b6c0d1332a93f7f0ba6bdd1a54b0f5bfa3cd7663d8b5" type="hidden"/>
+                          </form>
+                        <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+                            <button class="waves-effect waves-light btn-large" onClick="this.form.urlOrigen.value = window.location.href;" style="margin-top: 10px;">Dos programas $50.000</button>
+                            <input name="buttonId" type="hidden" value="7tMW87HnKC62syJGiOfVp6bGGk/myvK9EM041E5J2iz25PFjCbKPLg=="/>
+                            <input name="merchantId" type="hidden" value="622809"/>
+                            <input name="accountId" type="hidden" value="625139"/>
+                            <input name="description" type="hidden" value="APORTE PADRINO 2 PROGRAMAS"/>
+                            <input name="referenceCode" type="hidden" value="APORTE002"/>
+                            <input name="amount" type="hidden" value="50000"/>
+                            <input name="tax" type="hidden" value="0"/>
+                            <input name="taxReturnBase" type="hidden" value="0"/>
+                            <input name="currency" type="hidden" value="COP"/>
+                            <input name="lng" type="hidden" value="es"/>
+                            <input name="displayShippingInformation" type="hidden" value="NO"/>
+                            <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+                            <input name="buttonType" value="SIMPLE" type="hidden"/>
+                            <input name="signature" value="5786880349f345d72b0bac5f815666ab14e31f16cf79284f6198ce493a3dfe4c" type="hidden"/>
+                        </form>               
+                        <h6 class="center-align grey-text">Medios de pago: Tarjetas débito, Tarjetas crédito, Efecty, Baloto</h6>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            
           </div>
+        </div>
+        <div class="row">
           <div class="col l4 s12">
-            <h5 class="white-text">Join the Discussion</h5>
-            <p class="grey-text text-lighten-4">We have a Gitter chat room set up where you can talk directly with us. Come in and discuss new features, future goals, general problems or questions, or anything else you can think of.</p>
-            <a class="btn waves-effect waves-light red lighten-3" target="_blank" href="https://gitter.im/Dogfalo/materialize">Chat</a>
-          </div>
+            <h5 class="white-text">CONTÁCTO</h5>            
+            <h6 class="flow-text white-text">
+            Email: contacto@fodina.co<br>
+            Teléfono: (2) 393 58 94<br>
+            Sede: Calle 48A # 29C - 11 <br>Laureano Gomez<br>
+            Cali, Colombia <br>
+            </h6>
+          </div>          
           <div class="col l4 s12" style="overflow: hidden;">
-            <h5 class="white-text">Connect</h5>
-            <iframe src="http://ghbtns.com/github-btn.html?user=dogfalo&repo=materialize&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
-            <br>
-            <a href="https://twitter.com/MaterializeCSS" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Follow @MaterializeCSS</a>
-            <br>
-            <div class="g-follow" data-annotation="bubble" data-height="24" data-href="https://plus.google.com/108619793845925798422" data-rel="publisher"></div>
+            <h5 class="white-text" id="contacto">ESCRÍBENOS</h5> 
+            <div class="row">              
+              <form method="post" action="contacto.php" class="col s12 white-text">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="first_name" name="nombre" type="text" class="validate">
+                    <label for="first_name" class="white-text">Nombre</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" name="apellido" type="text" class="validate">
+                    <label for="last_name" class="white-text">Apellido</label>
+                  </div>
+                </div>                
+                <div class="row">
+                  <div class="input-field col s12" style="margin-top: 0;">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="telefono" name="telefono" type="tel" class="validate">
+                    <label for="telefono" class="white-text">Teléfono</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12" style="margin-top: 0;">
+                    <i class="material-icons prefix">email</i>
+                    <input id="email" name="email" type="email" class="validate">
+                    <label for="email" class="white-text">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12" style="margin-top: 0;">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="textarea1" name="mensaje" class="materialize-textarea"></textarea>
+                    <label for="textarea1" class="white-text">Mensaje</label>
+                  </div>
+                </div>
+                 <button class="btn waves-effect waves-light" type="submit" name="contacto">Enviar
+                  <i class="material-icons right">send</i>
+                </button>              
+              </form>
+            </div>
+          </div>
+          <div class="col l4 s12 right-align">
+            <h5 class="white-text">SÍGUENOS</h5>
+            <a href="https://www.facebook.com/fundacionfodina/" target="_new">
+              <h2 class="white-text"><i class="fa fa-facebook" aria-hidden="true"></i></h2>
+            </a>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container">
-        © 2014-2017 Materialize, All rights reserved.
-        <a class="grey-text text-lighten-4 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">MIT License</a>
+        © 2017 Formación y desarrollo Integral para Niños, Adolescentes y Adultos, All rights reserved.
+        <!--<a class="grey-text text-lighten-4 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">MIT License</a>-->
         </div>
       </div>
     </footer>
